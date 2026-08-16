@@ -20,7 +20,7 @@ const activities = [
   {
     icon: UserPlus,
     title: "New team member",
-    description: "Sarah joined the workspace",
+    description: "Sarah joined the workspace", 
     time: "1 hour ago",
   },
   {

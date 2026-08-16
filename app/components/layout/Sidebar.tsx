@@ -19,7 +19,7 @@ interface SidebarProps {
 const navigation = [
   {
     title: "Dashboard",
-    href: "/dashboard",
+    href: "/components/dashboard",
     icon: LayoutDashboard,
   },
   {
@@ -70,7 +70,7 @@ export default function Sidebar({
       >
         <div className="flex h-16 items-center justify-between border-b border-[var(--border)] px-5">
           <Link
-            href="/dashboard"
+            href="/components/dashboard"
             className="flex items-center gap-3"
           >
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--primary)]">
